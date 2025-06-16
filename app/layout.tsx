@@ -1,6 +1,31 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Istok_Web,
+  Poppins,
+  Black_Han_Sans,
+} from "next/font/google";
 import "./globals.css";
+
+const isTokWeb = Istok_Web({
+  variable: "--font-istok-web",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+const blackHanSans = Black_Han_Sans({
+  variable: "--font-black-han-sans",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.variable} ${isTokWeb.variable} ${geistSans.variable} ${geistMono.variable} ${blackHanSans.variable} antialiased`}
       >
         {children}
       </body>
