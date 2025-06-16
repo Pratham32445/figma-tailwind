@@ -1,42 +1,71 @@
 import Image from "next/image";
 import React from "react";
+import { Button } from "../ui/button";
+import { ArrowRight } from "lucide-react";
 
-const ValueChainHero = () => {
+const GlanceHero = () => {
   return (
-    <section className="w-full py-16 px-4 sm:px-6 lg:px-8 bg-white">
-      <div className="md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-        <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto aspect-square">
-          <div className="absolute -top-8 -left-8 sm:-top-12 sm:-left-12 w-full h-full bg-gray-300 z-0"></div>
-          <div className="relative z-10 w-full h-full">
-            <Image
-              src="/coal-closeup.avif"
-              alt="Premium coal"
-              fill
-              className="object-cover object-center shadow-md filter grayscale"
-            />
+    <section className="relative min-h-screen overflow-hidden">
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/aboutHeader.png"
+          alt="Coal mining background"
+          fill
+          className="object-cover object-center"
+          priority
+          quality={90}
+        />
+        <div
+          className="absolute top-0 w-full h-[127px]"
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(255, 255, 255, 0.60) 0%, rgba(153, 153, 153, 0.00) 100%)",
+          }}
+        ></div>
+      </div>
+
+      <div className="relative p-4">
+        <p className="font-poppins text-white text-2xl font-bold">
+          Latest Deals:
+        </p>
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+        <h1 className="font-black-han-sans text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white mb-8 sm:mb-12 leading-tight">
+          <span className="block">From Mine to Market</span>
+          <span className="block">— A Value Chain</span>
+          <span className="block">Built on Trust</span>
+        </h1> 
+
+        <div className="flex items-start mt-8">
+          <Button className="bg-gradient-to-b from-[#FFCE26] to-[#EF4211] font-poppins p-8 rounded-none text-xl">
+            Contact us
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+          </Button>
+        </div>
+
+        <div className="mt-15 ml-10 flex gap-5">
+          <div className="w-[50px] h-[50px] border-2 border-white flex justify-center items-center">
+            <p className="text-white">1</p>
+          </div>
+          <div className="w-[50px] h-[50px] border-2 border-white flex justify-center items-center">
+            <p className="text-white">4</p>
           </div>
         </div>
+      </div>
 
-        <div className="text-center md:text-left mt-8 md:mt-0">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 mb-4 font-poppins">
-            Strategic Sourcing
-          </h2>
-          <p>
-            We partner with verified mines and authorized yards to source
-            high-grade coal directly from trusted regions. Every batch is tested
-            for key parameters like GCV, ash, sulfur, and moisture to ensure
-            compliance with industrial and domestic standards.
-          </p>
-          <p className="text-sm sm:text-base leading-relaxed mb-6 max-w-prose mx-auto md:mx-0 font-poppins font-medium">
-            <li>Verified origins.</li>
-            <li>Quality-assured sourcing.</li>
-            <li>Technical grading before procurement</li>
-            <li>Custom Packaging: Bulk, Jumbo Bags, 50kg/25kg</li>
-          </p>
-        </div>
+      <div className="absolute bottom-0 left-0 right-0 z-10">
+        <Image
+          src="/vector.png"
+          alt=""
+          width={1200}
+          height={120}
+          className="w-full h-16 sm:h-24 md:h-32 object-cover object-top"
+          priority
+        />
       </div>
     </section>
   );
 };
 
-export default ValueChainHero;
+export default GlanceHero;

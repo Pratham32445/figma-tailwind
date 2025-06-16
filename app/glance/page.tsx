@@ -1,4 +1,4 @@
-import CustomerTrust from "@/components/about/CustomerTrust";
+import CustomerTrust from "@/components/CustomerTrust";
 import BulkOrdersComponent from "@/components/BulkOrders";
 import Footer from "@/components/Footer";
 import GeoGraphicReach from "@/components/glance/GeoGraphicReach";

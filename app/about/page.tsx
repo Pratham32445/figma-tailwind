@@ -1,5 +1,5 @@
 import AboutHero from "@/components/about/AboutHero";
-import CustomerTrust from "@/components/about/CustomerTrust";
+import CustomerTrust from "@/components/CustomerTrust";
 import Mission from "@/components/about/Mission";
 import Vision from "@/components/about/Vision";
 import WhoAreYou from "@/components/about/WhoAreYou";
