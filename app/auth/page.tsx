@@ -9,8 +9,8 @@ import SignUpComp from "@/components/SignUpComp";
 const SignIn = () => {
   const [selectedTab, setSelectedTab] = useState("signin");
   return (
-    <section className="flex flex-col md:flex-row p-4 gap-8 md:gap-20">
-      <div className="w-full md:w-auto flex-shrink-0">
+    <section className="flex items-center justify-center md:flex-row p-4 gap-8 md:gap-20">
+      <div className="hidden xl:block w-full md:w-auto flex-shrink-0">
         <Image
           src={"/auth.jpg"}
           className="rounded-md"
@@ -20,7 +20,7 @@ const SignIn = () => {
           priority
         />
       </div>
-      <div className="flex-1">
+      <div className="flex justify-center w-full h-full xl:block flex-1">
         <div className="mt-8 md:mt-20">
           <p className="text-4xl sm:text-5xl md:text-[64px] text-[#7A999C] font-bold font-istok">
             Hello,{" "}
