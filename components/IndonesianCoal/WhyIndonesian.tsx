@@ -7,7 +7,7 @@ const WhyIndonesian = () => {
       <div className="md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="text-center md:text-left mt-8 md:mt-0">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 mb-4 font-poppins">
-            Empowering Industry
+            Why Choose Indonesian Coal?
           </h2>
           <p className="font-poppins font-medium">
             Each ton of coal we deliver fuels productivity — powering steel

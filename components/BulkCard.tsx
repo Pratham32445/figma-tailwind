@@ -34,9 +34,6 @@ const BulkCard = ({
               <h3 className="text-white font-semibold text-sm sm:text-base md:text-lg leading-tight">
                 {title}
               </h3>
-              <h3 className="text-white font-semibold text-sm sm:text-base md:text-lg leading-tight">
-                Quote
-              </h3>
             </div>
 
             <div className="flex-shrink-0 ml-4">

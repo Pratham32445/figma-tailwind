@@ -9,12 +9,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "About us", href: "#about" },
-    { name: "Products", href: "#products" },
+    { name: "About us", href: "/about" },
+    { name: "Products", href: "/products" },
     { name: "Industries", href: "#industries" },
     { name: "Blogs", href: "#blogs" },
     { name: "Contacts", href: "#contacts" },
-    { name: "Login", href: "#login" },
+    { name: "Login", href: "/auth" },
   ];
 
   const mobileMenuVariants = {

@@ -22,13 +22,15 @@ const BulkOrdersComponent = () => {
               <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-48 -translate-y-1"></div>
               <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-64 translate-y-4"></div>
               <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-80 translate-y-1"></div>
-              <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-96 -translate-y-3"></div>
+              <div className="hidden md:block w-3 h-3 bg-black rounded-full absolute transform translate-x-96 -translate-y-3"></div>
             </div>
           </div>
 
           <div className="space-y-4">
-            <BulkCard title="Request Bulk Quote"/>
-            <BulkCard title="Contact Sales"/>
+            <BulkCard title="Request Bulk Quote" />
+            <div className="lg:ml-30 xl:ml-50">
+              <BulkCard title="Contact Sales" />
+            </div>
           </div>
         </div>
       </div>

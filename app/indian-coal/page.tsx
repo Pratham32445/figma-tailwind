@@ -6,13 +6,14 @@ import Navbar from "@/components/Navbar";
 import NewsUpdate from "@/components/NewsUpdate";
 import BriefCoalIndia from "@/components/IndianCoal/BriefCoalIndia";
 import WhyIndian from "../../components/IndianCoal/WhyIndian";
+import IndianCoalHero from "@/components/IndianCoal/IndianCoalHero";
 
 const IndianCoal = () => {
-  return (
+  return (      
     <div>
       {" "}
       <Navbar />
-      <CoalHero />
+      <IndianCoalHero />
       <BriefCoalIndia />
       <WhyIndian />
       <BulkOrdersComponent />
