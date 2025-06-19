@@ -33,8 +33,18 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32">
-        <h1 className="font-black-han-sans text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white mb-8 sm:mb-12 leading-tight">
-          <span className="block" style={{textShadow : "12px 12px 28.5px rgba(0, 0, 0, 0.39)"}}>Fueling Industries.</span>
+        <h1
+          className="font-black-han-sans text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white mb-8 sm:mb-12 leading-tight"
+          style={{
+            textShadow: "text-shadow: 12px 12px 28.5px rgba(0, 0, 0, 0.39)",
+          }}
+        >
+          <span
+            className="block"
+            style={{ textShadow: "12px 12px 28.5px rgba(0, 0, 0, 0.39)" }}
+          >
+            Fueling Industries.
+          </span>
           <span className="block">Driving Excellence!</span>
         </h1>
 

@@ -9,6 +9,7 @@ import ComparisonTable from "@/components/coalbytype/ComparisonTable";
 import Navbar from "@/components/Navbar";
 import NewsUpdate from "@/components/NewsUpdate";
 import React from "react";
+import Antracite from "@/components/coalbytype/Antracite";
 
 const CoalByType = () => {
   return (
@@ -17,6 +18,7 @@ const CoalByType = () => {
       <CoalHero />
       <ThermalCoal />
       <CokingCoal />
+      <Antracite/>
       <SteamCoal />
       <Domestic />
       <ComparisonTable />

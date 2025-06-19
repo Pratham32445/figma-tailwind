@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import {  MoveRight } from "lucide-react";
 
 const CoalQualitySection = () => {
   return (
@@ -32,7 +32,7 @@ const CoalQualitySection = () => {
             className="text-red-600 font-medium flex items-center gap-2 justify-center md:justify-start hover:underline transition"
           >
             Read More
-            <ArrowRight className="w-4 h-4" />
+            <MoveRight className="w-4 h-4" />
           </a>
         </div>
       </div>

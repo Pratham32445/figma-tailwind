@@ -1,16 +1,15 @@
-// components/DotWave.tsx
 import React from "react";
 
 interface DotWaveProps {
-  dotSize?: number; // Dot size in pixels
-  gap?: number;     // Horizontal gap between dots
-  count?: number;   // Number of dots
-  offset?: number;  // Vertical shift (zig-zag height)
+  dotSize?: number;
+  gap?: number;
+  count?: number;
+  offset?: number;
 }
 
-const DotWave: React.FC<DotWaveProps> = ({
+const Scattered: React.FC<DotWaveProps> = ({
   dotSize = 8,
-  gap = 80,          // Increased gap to match image
+  gap = 80,
   count = 5,
   offset = 10,
 }) => {
@@ -33,4 +32,4 @@ const DotWave: React.FC<DotWaveProps> = ({
   );
 };
 
-export default DotWave;
+export default Scattered;

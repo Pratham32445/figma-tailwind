@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import NewsUpdate from "@/components/NewsUpdate";
 import React from "react";
+import BlackCircle from "@/components/BlackCircle";
 
 const AboutUs = () => {
   return (
@@ -15,10 +16,11 @@ const AboutUs = () => {
       <Navbar />
       <AboutHero />
       <WhoAreYou />
+      <BlackCircle />
       <Mission />
       <Vision />
       <CustomerTrust />
-      <BulkOrders/>
+      <BulkOrders />
       <NewsUpdate />
       <Footer />
     </>

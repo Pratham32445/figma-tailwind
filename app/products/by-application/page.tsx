@@ -2,7 +2,7 @@ import BulkOrdersComponent from "@/components/BulkOrders";
 import CokingCoal from "@/components/by-application/CokingCoal";
 import Domestic from "@/components/by-application/Domestic";
 import SteamCoal from "@/components/by-application/SteamCoal";
-import ThermalCoal from "@/components/by-application/ThermalCoal";
+import ThermalCoal from "@/components/by-application/IndustrialUse";
 import Footer from "@/components/Footer";
 import CoalHero from "@/components/by-application/CoalHero";
 import ComparisonTable from "@/components/by-application/ComparisonTable";

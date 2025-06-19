@@ -9,24 +9,25 @@ const Domestic = () => {
           <div className="absolute -top-8 -left-8 sm:-top-12 sm:-left-12 w-full h-full bg-gray-300 z-0"></div>
           <div className="relative z-10 w-full h-full">
             <Image
-              src="/coal-closeup.avif"
+              src="/domestic.jpg"
               alt="Premium coal"
               fill
-              className="object-cover object-center shadow-md filter grayscale"
+              className="object-cover object-center shadow-md"
             />
           </div>
         </div>
 
         <div className="text-center md:text-left mt-8 md:mt-0">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 mb-4 font-poppins">
-            Premium Coal Quality
+            Domestic / BBQ Coal
           </h2>
           <p className="text-sm sm:text-base leading-relaxed mb-6 max-w-prose mx-auto md:mx-0 font-poppins font-medium">
-            At DD Mines, we specialize in the sourcing, processing, and delivery
-            of premium-grade coal for industrial and commercial use. With years
-            of expertise and a reputation built on integrity, we serve
-            businesses with dependable logistics, strict quality controls, and
-            tailored coal solutions.
+            Packaged for home use & retail.
+          </p>
+          <p className="text-sm sm:text-base leading-relaxed mb-6 max-w-prose mx-auto md:mx-0 font-poppins font-medium">
+            <li>Low smoke, pleasant aroma for BBQ</li>
+            <li>Pack sizes: 5kg, 10kg, 25kg</li>
+            <li>Best for: Household heating, grills</li>
           </p>
         </div>
       </div>

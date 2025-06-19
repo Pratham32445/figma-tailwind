@@ -1,5 +1,6 @@
 import React from "react";
 import BulkCard from "./BulkCard";
+import Scattered from "./ScatteredDots";
 
 const BulkOrdersComponent = () => {
   return (
@@ -15,15 +16,7 @@ const BulkOrdersComponent = () => {
               orders and multi-ton shipments across India.
             </p>
 
-            <div className="relative h-16 pt-4">
-              <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-2 translate-y-1"></div>
-              <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-16 -translate-y-2"></div>
-              <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-32 translate-y-3"></div>
-              <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-48 -translate-y-1"></div>
-              <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-64 translate-y-4"></div>
-              <div className="w-3 h-3 bg-black rounded-full absolute transform translate-x-80 translate-y-1"></div>
-              <div className="hidden md:block w-3 h-3 bg-black rounded-full absolute transform translate-x-96 -translate-y-3"></div>
-            </div>
+           <Scattered/>
           </div>
 
           <div className="space-y-4">
